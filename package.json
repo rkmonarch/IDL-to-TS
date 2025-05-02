@@ -1,5 +1,5 @@
 {
-  "name": "solana-idl-generator",
+  "name": "idl_to_ts",
   "version": "0.1.0",
   "private": true,
   "scripts": {
