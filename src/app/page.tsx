@@ -221,7 +221,7 @@ const IDLConverter = () => {
             {idlContent && (
               <button
                 onClick={() => copyToClipboard(idlContent)}
-                className="flex items-center space-x-1 text-xs bg-gray-200 hover:bg-gray-300 px-3 py-1.5 rounded transition-colors"
+                className="flex items-center space-x-1 text-xs bg-black text-white hover:bg-white hover:text-black px-3 py-1.5 rounded transition-colors"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -262,7 +262,7 @@ const IDLConverter = () => {
             {generatedCode && (
               <button
                 onClick={() => copyToClipboard(generatedCode)}
-                className="flex items-center space-x-1 text-xs bg-gray-200 hover:bg-gray-300 px-3 py-1.5 rounded transition-colors"
+                className="flex items-center space-x-1 text-xs bg-black text-white hover:bg-white hover:text-black px-3 py-1.5 rounded transition-colors"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
